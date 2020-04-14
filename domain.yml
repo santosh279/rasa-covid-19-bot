@@ -1,0 +1,106 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- worry_about_corona_virus
+- what_is_corona_virus
+- negate
+- thanks
+- bot_name
+- propose
+- meet
+- specific_question
+- love_confession
+- check_humanity
+- nonexisting_service
+- mood_happy
+- know_features
+- negate_with_purpose
+- healthy_tips
+- covid_tracker
+  
+responses:
+  utter_what_is_corona_virus_answer:
+  - text: Coronaviruses are a group of related viruses that cause diseases in mammals
+      and birds. In humans, coronaviruses cause respiratory tract infections that
+      can range from mild to lethal. Mild illnesses include some cases of the common
+      cold (which has other possible causes, predominantly rhinoviruses), while more
+      lethal varieties can cause SARS, MERS, and COVID-19.
+  utter_worry_about_corona_virus_answer:
+  - text: Please contact nearest helpline center
+  utter_no_problem:
+  - text: No problem
+  utter_bot_name:
+  - text: My name is RAW COVID BOT!
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Feel free to come back if you have any other queries.
+  utter_iamabot:
+  - text: I am a bot, powered by Raw Engineering.
+  utter_cannot_meet:
+  - text: Sorry! .
+  utter_features:
+  - text: I am here to provide you details about COVID-19 Pandemic and relaxation
+      in lockdown.
+  utter_no_such_service:
+  - text: Sorry! We will be there soon.
+  utter_humanity:
+  - text: It's complicated. I am a blend of the creativity of humans and the superiority
+      of machines. :)
+  utter_love_rejection:
+  - text: Thank you :) But Raw is my one true love.
+  utter_go_on:
+  - text: Sure! Go on.
+  utter_proposal_rejection:
+  - text: Sorry, I am married to Raw already.
+  utter_thanks:
+  - text: You're welcome.
+  utter_negate:
+  - text: Feel free to ask any other queries :)
+  utter_healthy_tips_answer:
+  - text: WHO PUPLIC ADVICE... [more](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public)
+  utter_stay_home_stay_safe:
+  - text: STAY HOME & STAY SAFE
+  utter_for_more_about_corona_virus:
+  - text: For more details [click here](https://en.wikipedia.org/wiki/Coronavirus)
+  utter_covid_tracker_answer:
+  - text: COVID-19 TRACKER [link](https://www.worldometers.info/coronavirus/)
+actions:
+- utter_healthy_tips_answer
+- utter_humanity
+- utter_greet
+- utter_cheer_up
+- utter_did_that_help
+- utter_happy
+- utter_goodbye
+- utter_iamabot
+- utter_love_rejection
+- utter_no_such_service
+- utter_proposal_rejection
+- utter_thanks
+- utter_worry_about_corona_virus_answer
+- utter_what_is_corona_virus_answer
+- utter_negate
+- utter_bot_name
+- utter_cannot_meet
+- utter_go_on
+- utter_no_problem
+- utter_features
+- utter_stay_home_stay_safe
+- utter_for_more_about_corona_virus
+- utter_covid_tracker_answer
