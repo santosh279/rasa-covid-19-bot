@@ -1,16 +1,3 @@
-__pycache__
-venvp3/
 
-rasa_core.log
-out.log
-.vscode/
-*.pyc
-rasa-stack-mockup.gif
-.travis.yml
-venvp2/
-training_logs/
-venvp3/
-.venv/
-.idea/
 rasa*
 events*
