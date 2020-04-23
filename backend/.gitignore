@@ -1,3 +1,5 @@
 
-rasa*
-events*
+
+backend/models/*
+backend/tests/*
+!*.gitkeep

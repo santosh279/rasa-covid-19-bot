@@ -79,7 +79,8 @@ responses:
   utter_for_more_about_corona_virus:
   - text: For more details [click here](https://en.wikipedia.org/wiki/Coronavirus)
   utter_covid_tracker_answer:
-  - text: COVID-19 TRACKER [link](https://www.worldometers.info/coronavirus/)
+  - text: COVID-19 TRACKER [link](https://www.worldometers.info/coronavirus/)\
+
 actions:
 - utter_healthy_tips_answer
 - utter_humanity
